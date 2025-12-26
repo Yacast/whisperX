@@ -251,12 +251,11 @@ class VoiceActivitySegmentation(VoiceActivityDetection):
 
 
 class Pyannote(Vad):
-
     def __init__(self, device, use_auth_token=None, model_fp=None, **kwargs):
         logger.info("Performing voice activity detection using Pyannote...")
         super().__init__(kwargs["vad_onset"])
         self.vad_pipeline = load_vad_model(
-            device, use_token=use_auth_token, model_fp=model_fp
+            device, use_auth_token=use_auth_token, model_fp=model_fp
         )
 
     def __call__(self, audio: AudioFile, **kwargs):
