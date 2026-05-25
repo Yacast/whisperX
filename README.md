@@ -1,3 +1,13 @@
+> ⚠️ **REPO OBSOLÈTE — MIGRÉ VERS GITLAB YACAST**
+>
+> Ce repo a été rapatrié vers GitLab Yacast le 2026-05-25.
+>
+> 🔗 **Nouvelle référence** : https://git.yacast.fr/github_archive/whisperX
+>
+> Plus aucun développement n'aura lieu ici. Toute modification doit être faite sur GitLab.
+
+---
+
 <h1 align="center">WhisperX</h1>
 
 ## Recall.ai - Meeting Transcription API
